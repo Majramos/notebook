@@ -1,0 +1,316 @@
+/* for colors: https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/_colors.scss */
+
+@font-face {
+  font-family: 'mononoki';
+  src: url('mononoki-Regular-Nerd-Font-Complete-Mono.ttf') format('truetype');
+}
+
+:root {
+  --md-text-font: 'mononoki';
+  --md-code-font: 'mononoki';
+
+  --solarized-base03:    #002b36;
+  --solarized-base02:    #073642;
+  --solarized-base01:    #586e75;
+  --solarized-base00:    #657b83;
+  --solarized-base0:     #839496;
+  --solarized-base1:     #93a1a1;
+  --solarized-base2:     #eee8d5;
+  --solarized-base3:     #fdf6e3;
+  --solarized-yellow:    #b58900;
+  --solarized-orange:    #cb4b16;
+  --solarized-red:       #dc322f;
+  --solarized-magenta:   #d33682;
+  --solarized-violet:    #6c71c4;
+  --solarized-blue:      #268bd2;
+  --solarized-cyan:      #2aa198;
+  --solarized-green:     #859900;
+
+  /* Footer color shades */
+  --md-footer-fg-color:                var(--solarized-orange); /* on hover */
+  --md-footer-fg-color--light:         var(--solarized-base3);
+  --md-footer-fg-color--lighter:       var(--solarized-base3);
+
+  /* Code highlighting color shades */
+  --md-code-hl-number-color:           var(--solarized-magenta);
+  --md-code-hl-special-color:          var(--solarized-yellow);
+  --md-code-hl-function-color:         var(--solarized-cyan);
+  --md-code-hl-constant-color:         var(--solarized-magenta);
+  --md-code-hl-keyword-color:          var(--solarized-orange);
+  --md-code-hl-string-color:           var(--solarized-green);
+  --md-code-hl-operator-color:         var(--solarized-violet);
+  --md-code-hl-generic-color:          var(--solarized-red);
+  --md-code-hl-variable-color:         var(--solarized-blue);
+}
+
+
+[data-md-color-scheme="solarizedlight"] {
+  /* nav bg color */
+  --md-primary-fg-color:               var(--solarized-base2);
+  --md-primary-fg-color--dark:         var(--solarized-base2); /* nav on small windows */
+
+  /* nav text color */
+  --md-primary-bg-color:               var(--solarized-base01);
+  --md-primary-bg-color--light:        rgba(var(--solarized-base01), 0.7);
+
+  /* Accent color shades */
+  --md-accent-fg-color:                var(--solarized-red); /* links on hover */
+  --md-accent-fg-color--transparent:   rgba(var(--solarized-cyan), 0.1);
+
+  /* h1 titles, title of TOC, scrolled by links in left toc */
+  --md-default-fg-color:               var(--solarized-base00);
+  --md-default-fg-color--light:        var(--solarized-base1);
+
+  /* page background */
+  --md-default-bg-color:               var(--solarized-base3);
+
+  --md-footer-bg-color:                var(--solarized-base1);
+  --md-footer-bg-color--dark:          var(--solarized-base1);
+
+  /* Typeset color shades */
+  --md-typeset-color:                  var(--solarized-base00);
+  --md-typeset-a-color:                var(--solarized-blue);
+
+  /* Code color shades */
+  --md-code-fg-color:                  var(--solarized-base00);
+  --md-code-bg-color:                  var(--solarized-base2);
+
+  --md-code-hl-color:                  var(--solarized-base3);
+  --md-code-hl-comment-color:          var(--solarized-base1);
+  --md-code-hl-name-color:             var(--solarized-base00);
+  --md-code-hl-punctuation-color:      var(--solarized-base00);
+
+  /* Admonition color shades */
+  --md-admonition-fg-color:            var(--solarized-base01);
+  --md-admonition-bg-color:            var(--solarized-base2);
+
+    --md-selection-fg-color:           var(--solarized-base2);
+    --md-selection-bg-color:           var(--solarized-base1);
+}
+
+[data-md-color-scheme="solarizeddark"] {
+  /* nav bg color */
+  --md-primary-fg-color:               var(--solarized-base02);
+  --md-primary-fg-color--dark:         var(--solarized-base02); /* nav on samll window *
+
+  /* nav text color */
+  --md-primary-bg-color:               var(--solarized-base1);
+  --md-primary-bg-color--light:        rgba(var(--solarized-base1), 0.7);
+
+  /* Accent color shades, hover links */
+  --md-accent-fg-color:                var(--solarized-magenta); /* links on hover */
+  --md-accent-fg-color--transparent:   rgba(var(--solarized-magenta), 0.1);
+
+  /* h1 titles, title of TOC, scrolled by links in left toc */
+  --md-default-fg-color:               var(--solarized-base0);
+  --md-default-fg-color--light:        var(--solarized-base01);
+
+  /* page background */
+  --md-default-bg-color:               var(--solarized-base03);
+
+  --md-footer-bg-color:                var(--solarized-base01);
+  --md-footer-bg-color--dark:          var(--solarized-base01);
+
+  /* Typeset color shades */
+  --md-typeset-color:                  var(--solarized-base0);
+  --md-typeset-a-color:                var(--solarized-cyan);
+
+   /* Code color shades */
+  --md-code-fg-color:                  var(--solarized-base0);
+  --md-code-bg-color:                  var(--solarized-base02);
+
+  --md-code-hl-color:                  var(--solarized-base03);
+  --md-code-hl-comment-color:          var(--solarized-base01);
+  --md-code-hl-name-color:             var(--solarized-base0);
+  --md-code-hl-punctuation-color:      var(--solarized-base0);
+
+  /* Admonition color shades */
+  --md-admonition-fg-color:            var(--solarized-base1);
+  --md-admonition-bg-color:            var(--solarized-base02);
+
+    --md-selection-fg-color:           var(--solarized-base1);
+    --md-selection-bg-color:           var(--solarized-base01);
+}
+
+
+::selection {
+    color: var(--md-selection-fg-color);
+    background: var(--md-selection-bg-color);
+}
+
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar-track {
+  background: var(--md-code-bg-color) !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-primary-bg-color) !important;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--solarized-yellow) !important;
+}
+
+
+.jupyter-wrapper {
+    --jp-content-font-color1:            var(--md-code-fg-color) !important;
+    --jp-ui-font-family:                 'mononoki' !important;
+    --jp-code-font-family-default:       'mononoki' !important;
+    --jp-cell-editor-background:         var(--md-code-bg-color)  !important;
+
+    --jp-mirror-editor-keyword-color:    var(--solarized-orange) !important;
+    --jp-mirror-editor-atom-color:       var(--solarized-magenta) !important;
+    --jp-mirror-editor-number-color:     var(--solarized-magenta) !important;
+    --jp-mirror-editor-def-color:        var(--solarized-cyan) !important;
+
+    --jp-mirror-editor-variable-color:   var(--solarized-base0) !important;
+    --jp-mirror-editor-variable-2-color: var(--solarized-base00) !important;
+    --jp-mirror-editor-variable-3-color: var(--solarized-base01) !important;
+
+    --jp-mirror-editor-punctuation-color: var(--md-code-hl-punctuation-color) !important;
+    --jp-mirror-editor-property-color:   var(--solarized-cyan) !important;
+    --jp-mirror-editor-operator-color:   var(--solarized-violet) !important;
+
+    --jp-mirror-editor-comment-color:    var(--md-code-hl-comment-color) !important;
+    --jp-mirror-editor-string-color:     var(--solarized-green) !important;
+    --jp-mirror-editor-string-2-color:   var(--solarized-green) !important;
+
+    --jp-mirror-editor-meta-color:       var(--solarized-green) !important;
+    --jp-mirror-editor-qualifier-color:  var(--solarized-yellow) !important;
+    --jp-mirror-editor-builtin-color:    var(--solarized-magenta) !important;
+    --jp-mirror-editor-bracket-color:    var(--solarized-violet) !important;
+    --jp-mirror-editor-tag-color:        var(--solarized-base1) !important;
+    --jp-mirror-editor-attribute-color:  var(--solarized-cyan) !important;
+    --jp-mirror-editor-header-color:     var(--solarized-blue) !important;
+    --jp-mirror-editor-quote-color:      var(--solarized-base1) !important;
+    --jp-mirror-editor-link-color:       var(--solarized-base1) !important;
+    --jp-mirror-editor-error-color:      var(--solarized-base01) !important;
+    --jp-mirror-editor-hr-color:         var(--solarized-base01) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .nf, .jupyter-wrapper .highlight-ipynb .nc,
+.jupyter-wrapper .highlight-ipynb .fm{
+    color: var(--solarized-cyan) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .nd{
+    color: var(--jp-mirror-editor-operator-color) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .nb{
+    color: var(--jp-mirror-editor-builtin-color) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .bp{
+    color: var(--md-code-hl-comment-color) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .si{
+    color: var(--jp-mirror-editor-variable-color) !important;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .ow{
+    color: var(--jp-mirror-editor-keyword-color) !important;
+    font-weight: normal;
+}
+
+
+.jupyter-wrapper .highlight-ipynb .k, .jupyter-wrapper .highlight-ipynb .kc
+.jupyter-wrapper .highlight-ipynb .km, .jupyter-wrapper .highlight-ipynb .kn,
+.jupyter-wrapper .highlight-ipynb .o {
+    font-weight: normal;
+}
+
+
+.jupyter-wrapper a {
+    color: var(--md-typeset-a-color) !important;
+    text-decoration: none !important;
+}
+
+
+.jupyter-wrapper a:hover {
+    color: var(--md-accent-fg-color) !important;
+}
+
+
+.jupyter-wrapper .jp-InputArea-editor {
+    border: none !important;
+}
+
+
+/* hide jupyter notebooks input/output numbers */
+.jupyter-wrapper .jp-InputPrompt, .jupyter-wrapper .jp-OutputPrompt {
+    display: none !important;
+}
+
+
+/*
+ * make sure that markdown tables and jupyter tables look alike
+ */
+.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult > div {
+    padding: 0 0.8rem !important;
+}
+
+
+.md-typeset table:not([class]) {
+    border: none !important;
+    font-size: 12px !important;
+}
+
+
+.md-typeset table:not([class]) td, .md-typeset table:not([class]) th {
+    text-align: right !important;
+    vertical-align: middle !important;
+    padding: 0.5em 0.5em !important;
+    line-height: normal !important;
+    white-space: normal !important;
+    max-width: none !important;
+    border: none !important;
+}
+
+
+.jupyter-wrapper table.dataframe thead,
+.md-typeset table:not([class]) thead th {
+    text-align: right !important;
+    border-bottom: 1px solid var(--md-typeset-color) !important;
+}
+
+
+.jupyter-wrapper table.dataframe {
+    color: var(--md-typeset-color) !important;
+}
+
+
+.jupyter-wrapper table.dataframe tbody tr:nth-child(odd),
+.md-typeset table:not([class]) tbody tr:nth-child(odd) {
+    background: var(--md-primary-fg-color) !important;
+    box-shadow: none !important;
+}
+
+
+.jupyter-wrapper table.dataframe tbody tr:hover,
+.md-typeset table:not([class]) tbody tr:hover {
+    color: var(--md-selection-fg-color) !important;
+    background: var(--md-selection-bg-color) !important;
+}
+
+
+.jupyter-wrapper ::selection {
+    color: var(--md-selection-fg-color) !important;
+    background: var(--md-selection-bg-color) !important;
+}
