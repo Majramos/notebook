@@ -1,0 +1,114 @@
+site_name: Marco Notebooks
+site_description: Marco notebooks about random stuff
+site_author: Marco Ramos
+repo_url: https://gitlab.com/majramos/notebook
+repo_name: majramos/notebook
+
+# change this before deploy
+site_url: ""
+use_directory_urls: false
+
+docs_dir: notebooks
+exclude_docs: |
+  *TODO*
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.annotate
+    # - navigation.instant # some features may not work properly with XHR
+    - navigation.indexes
+    - navigation.top
+  logo: assets/letter-m.png
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: solarizedlight
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: solarizeddark
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/majramos
+    - icon: fontawesome/brands/github
+      link: https://github.com/Majramos
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/majramos
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/majramos
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:marco@marcoramos.me
+  status:
+    new: Recently added
+
+copyright: Copyright &copy; 2023 <a href="https://www.marcoramos.me/">Marco Ramos</a>
+
+plugins:
+  - search
+  - awesome-pages
+  - tags:
+      tags_file: tags.md
+  - mkdocs-jupyter:
+      include: ["*.py", "*.ipynb"]
+      execute: false
+      allow_errors: false
+      kernel_name: python3
+      no_input: false
+      remove_tag_config:
+        remove_cell_tags:
+          - remove_cell
+        remove_all_outputs_tags:
+          - remove_output
+        remove_input_tags:
+          - remove_input
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
+      # js_files:
+      #     - my/javascript/dir/file1.js
+      css_files:
+          - stylesheets/extra.css
+
+# Enable Rich Formatting Feature via pymark
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tabbed
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: false
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - tables
+
+extra_css:
+  - stylesheets/extra.css
