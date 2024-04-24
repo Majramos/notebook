@@ -25,6 +25,9 @@
 - [boredapi](https://www.boredapi.com/)
 > The Bored API helps you find things to do when you're bored
 
+- [chicago data portal](https://data.cityofchicago.org/)
+> The City of Chicago's open data portal lets you find city data, lets you find facts about your neighborhood, lets you create maps and graphs about the city, and lets you freely download the data for your own analysis
+
 ## Education / Online Books
 
 - [deeplearningbook](https://www.deeplearningbook.org/)
@@ -66,6 +69,9 @@
 
 - [jquery](https://jquery.com/)
 > jQuery is a fast, small, and feature-rich JavaScript library
+
+- [IBM Decision Optimization CPLEX](https://ibmdecisionoptimization.github.io/docplex-doc/)
+> You can model your problems by using the Python API and solve them on the cloud with the IBM Decision Optimization on Cloud service or on your computer with IBM ILOG CPLEX Optimization Studio
 
 ## Tools
 
