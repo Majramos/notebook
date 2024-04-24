@@ -9,8 +9,10 @@
 </div>
 
 
-
 My notebooks about (python) programming and data science
+
+For a better description got the [notebook initial page](notebooks/index.md)
+
 
 ## Build the notebook
 
