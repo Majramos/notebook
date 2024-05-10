@@ -1,8 +1,8 @@
 title: data science
 nav:
     - ...
-	- deep-learning
-	- geospatial-analysis
-	- machine-learning
+    - deep-learning
+    - geospatial-analysis
+    - machine-learning
 hide: false
 collapse_single_pages: false

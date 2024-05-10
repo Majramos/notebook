@@ -19,26 +19,25 @@ keywords = ["notebooks"]
 requires-python = ">=3.9"
 dynamic = ["version", "readme"]
 dependencies = [
-    "bokeh==3.1.1",
-    "boto3==1.28.20",
+    "bokeh==3.4.1",
+    "boto3==1.34.102",
     "folium==0.16.0",
     "geopandas==0.14.3",
-    "ipyturtle3==0.1.4",
     "matplotlib==3.8.4",
-    "mkdocs-awesome-pages-plugin==2.9.1",
-    "mkdocs-jupyter==0.24.2",
-    "mkdocs-material==9.1.21",
-    "mkdocs-minify-plugin==0.7.1",
-    "numpy==1.24.3",
-    "pandas==2.0.1",
-    "pyarrow==12.0.1",
-    "psutil==5.9.5",
+    "mkdocs-awesome-pages-plugin==2.9.2",
+    "mkdocs-jupyter==0.24.7",
+    "mkdocs-material==9.5.21",
+    "mkdocs-minify-plugin==0.8.0",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "pyarrow==16.0.0",
+    "psutil==5.9.8",
     "requests==2.31.0",
     "shapely==2.0.4",
-    "statsmodels==0.14.0",
+    "statsmodels==0.14.2",
     "scikit-learn==1.3.2",
-    "yfinance==0.2.31",
-    "scipy==1.11.1"
+    "yfinance==0.2.38",
+    "scipy==1.13.0"
 ]
 
 [project.urls]
