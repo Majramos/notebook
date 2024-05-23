@@ -17,7 +17,7 @@ pull all changes
 ```bash
 git pull upstream main
 ```
-or shallow pull
+or shallow pull, ie. pull only the most recent commits
 ```bash
 git pull upstream main --depth=1
 ```
@@ -38,3 +38,10 @@ git remote add origin <your-new-repo>
 ```bash
 git push origin main
 ```
+
+# Mirror a repository between diferent hosts
+Create a repository in the new host and set remote url in the existing repo
+```
+git remote set-url --add origin git@<vsc host url>:<username>/<project>.git
+```
+when you push to origin it will push to both the original origin and the mirror that was added
