@@ -31,9 +31,14 @@ Normalization is the process of transforming a database to reduce redundancy and
 ### Slowly changing dimension (SCD)
 Dimension that stores and manages both current and previous version over a history of time period in a data warehouse. Types of SCDs:
 - Type 1: Update Changes
-| id  | code | name      | atribute       |    | id  | code | name      | atribute       |
-|-----|------|-----------|----------------| => |-----|------|-----------|----------------|
-| 123 | abc  | name_code | name_atribute1 |    | 123 | abc  | name_code | name_atribute2 |
+
+| id  | code | name      | atribute       |    
+|-----|------|-----------|----------------|
+| 123 | abc  | name_code | name_atribute1 |
+
+| id  | code | name      | atribute       |
+|-----|------|-----------|----------------|
+| 123 | abc  | name_code | name_atribute2 |
 
 - Type 2: Keep Historical
 | id  | code | name      | atribute       | start_date | end_date   |
