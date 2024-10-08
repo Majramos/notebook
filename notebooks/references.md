@@ -17,6 +17,9 @@
 - [firebog](https://firebog.net/)
 > Big blocklist collection for Pi-hole
 
+- [geoportal.lneg](https://geoportal.lneg.pt/pt/)
+> Informação georreferenciada relacionada com as diferentes atividades do Laboratório Nacional de Energia e Geologia
+
 - [newsapi](https://newsapi.org/)
 > Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API
 
@@ -33,6 +36,9 @@
 
 - [cheatography](https://cheatography.com/)
 > Free Cheat Sheets, Revision Aids and Quick References
+
+- [codewars](https://www.codewars.com/)
+> Improve development skills by training with peers on code kata that continuously challenge and push coding practice
 
 - [deeplearningbook](https://www.deeplearningbook.org/)
 > The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
@@ -71,6 +77,9 @@
 - [slickgrid](https://slickgrid.net/Index.html)
 > SlickGrid is a fully open-source, javascript, vanilla js, client-side grid control compatible with Bootstrap
 
+- [strapi](https://strapi.io/)
+> open-source headless CMS 100% JavaScript / TypeScript and fully customizable
+
 - [webcabin](https://docker.api.webcabin.org/index.html)
 > responsive IDE interface. Compartmentalize your environment into smaller components, put each of those parts into a docker panel, and organize your environment however you like, whenever you like
 
@@ -82,11 +91,17 @@
 - [browserling](https://www.browserling.com/tools/)
 > Collection of the most popular developer tools all in one place
 
+- [calculatorSoup](https://www.calculatorsoup.com/)
+> Calculator Soup a collection of diferent types of calculators.
+
+- [canva](https://www.canva.com/)
+> Canva makes it easy to create professional designs and to share or print them
+
 - [codemyui](https://codemyui.com/)
 > Handpicked collection of Web Design & UI Inspiration with Code Snippets
 
 - [disify](https://disify.com/)
-> Free email validation API. Check if disposable or temporary email address.
+> Free email validation API. Check if disposable or temporary email address
 
 - [excalidraw](https://excalidraw.com/)
 > An open source virtual hand-drawn style whiteboard
@@ -121,6 +136,9 @@
 - [regex101](https://regex101.com/)
 > Regular expression tester with syntax highlighting, explanation, cheat sheet
 
+- [resume matcher](https://www.resumematcher.fyi/)
+> Free and open-source ATS tool for tailoring resumes to job descriptions
+
 - [simplecss](https://simplecss.eu/)
 > Simple CSS media query generator for hundreds of devices
 
@@ -129,6 +147,9 @@
 
 - [StackEdit](https://stackedit.io/)
 > In-browser Markdown editor
+
+- [svgviewer](https://www.svgviewer.dev/)
+> View, edit, and optimize SVGs
 
 - [typescale](https://typescale.com/)
 > Create stunning typography
