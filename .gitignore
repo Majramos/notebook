@@ -102,3 +102,6 @@ ENV/
 
 # dev notebook
 development.ipynb
+
+# jupyter trash
+.Trash-999/*
