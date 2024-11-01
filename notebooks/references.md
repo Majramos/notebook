@@ -34,6 +34,9 @@
 
 ## Education / Online Books
 
+- [b-on](https://www.b-on.pt/)
+> Biblioteca do Conhecimento Online (b-on) disponibiliza o acesso ilimitado e permanente às instituições de investigação e do ensino superior aos textos integrais de milhares periódicos científicos e ebooks online de alguns dos mais importantes fornecedores de conteúdos, através de assinaturas negociadas a nível nacional.
+
 - [cheatography](https://cheatography.com/)
 > Free Cheat Sheets, Revision Aids and Quick References
 
@@ -46,8 +49,14 @@
 - [Forecasting: Principles and Pratice](https://otexts.com/fpp2/)
 > Textbook intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly
 
+- [geoscienceworld](https://pubs.geoscienceworld.org/)
+> As a unique nonprofit collaborative, our mission is to aggregate and disseminate information to advance earth science and to strengthen the sustainability of our society partners
+
 - [kaggle](https://www.kaggle.com/)
 > Share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Huge repository of community-published models, data & code for your next project
+
+- [sciencedirect](https://www.sciencedirect.com/)
+> Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature.
 
 - [vim cheat sheet](https://vim.rtorr.com/)
 
@@ -123,6 +132,9 @@
 
 - [omnibug](https://omnibug.io/)
 > Omnibug provides you the tools to quickly and easily verify that your marketing technologies are implemented properly
+
+- [OSRM](https://project-osrm.org/)
+> Open Source Routing Machine, High performance routing engine written in C++ designed to run on OpenStreetMap data
 
 - [place-hold](https://place-hold.it/)
 > Server-side image rendering tool that allows web developers and designers alike to dynamically create images to be used as placeholders in a project
