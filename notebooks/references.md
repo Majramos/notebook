@@ -35,7 +35,7 @@
 ## Education / Online Books
 
 - [b-on](https://www.b-on.pt/)
-> Biblioteca do Conhecimento Online (b-on) disponibiliza o acesso ilimitado e permanente às instituições de investigação e do ensino superior aos textos integrais de milhares periódicos científicos e ebooks online de alguns dos mais importantes fornecedores de conteúdos, através de assinaturas negociadas a nível nacional.
+> Biblioteca do Conhecimento Online (b-on) disponibiliza o acesso ilimitado e permanente às instituições de investigação e do ensino superior aos textos integrais de milhares periódicos científicos e ebooks online de alguns dos mais importantes fornecedores de conteúdos, através de assinaturas negociadas a nível nacional
 
 - [cheatography](https://cheatography.com/)
 > Free Cheat Sheets, Revision Aids and Quick References
@@ -56,7 +56,7 @@
 > Share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Huge repository of community-published models, data & code for your next project
 
 - [sciencedirect](https://www.sciencedirect.com/)
-> Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature.
+> Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature
 
 - [vim cheat sheet](https://vim.rtorr.com/)
 
@@ -97,11 +97,14 @@
 
 ## Tools
 
+- [animista](https://animista.net/)
+> On-Demand CSS animations library
+
 - [browserling](https://www.browserling.com/tools/)
 > Collection of the most popular developer tools all in one place
 
 - [calculatorSoup](https://www.calculatorsoup.com/)
-> Calculator Soup a collection of diferent types of calculators.
+> Calculator Soup a collection of diferent types of calculators
 
 - [canva](https://www.canva.com/)
 > Canva makes it easy to create professional designs and to share or print them
@@ -130,6 +133,10 @@
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 > Free fake API for testing and prototypin
 
+- [neumorphism](https://neumorphism.io/)
+> Generate neumorphic designs.
+> Neumorphism, also known as soft UI, is a visual design trend that combines elements of skeuomorphism and flat design
+
 - [omnibug](https://omnibug.io/)
 > Omnibug provides you the tools to quickly and easily verify that your marketing technologies are implemented properly
 
@@ -151,6 +158,9 @@
 - [resume matcher](https://www.resumematcher.fyi/)
 > Free and open-source ATS tool for tailoring resumes to job descriptions
 
+- [shadows.brumm.af](https://shadows.brumm.af/)
+> Smooth shadows generator
+
 - [simplecss](https://simplecss.eu/)
 > Simple CSS media query generator for hundreds of devices
 
@@ -165,6 +175,11 @@
 
 - [typescale](https://typescale.com/)
 > Create stunning typography
+
+- [universe.io](https://uiverse.io/)
+> The Largest Library of Open-Source UI
+> Community-built library of UI elements
+> Copy as HTML/CSS, Tailwind, React and Figma
 
 - [twilio](https://www.twilio.com/)
 > Communication APIs for SMS, Voice, Video & Authentication
@@ -197,6 +212,9 @@
 
 - [Solarized](https://ethanschoonover.com/solarized/)
 > Solarized is a sixteen color palette (eight monotones, eight accent colors) designed for use with terminal and gui applications
+
+- [thisxdoesnotexist](https://thisxdoesnotexist.com/)
+> Using generative adversarial networks (GAN), we can learn how to create realistic-looking fake versions of almost anything, as shown by this collection of sites that have sprung up in the past month.
 
 - [Windows Terminal Themes](https://windowsterminalthemes.dev/)
 > Hundreds of themes for Windows Terminal
