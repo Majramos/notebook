@@ -109,6 +109,9 @@
 - [canva](https://www.canva.com/)
 > Canva makes it easy to create professional designs and to share or print them
 
+- [chalk](https://chalk.ist/)
+> Create beautiful images of your source code
+
 - [codemyui](https://codemyui.com/)
 > Handpicked collection of Web Design & UI Inspiration with Code Snippets
 
@@ -133,9 +136,17 @@
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 > Free fake API for testing and prototypin
 
+- [mattermost](https://mattermost.com/)
+> Collaboration for Mission-Critical Work
+> Self-hosted Team Messaging for Private Networks
+
 - [neumorphism](https://neumorphism.io/)
 > Generate neumorphic designs.
 > Neumorphism, also known as soft UI, is a visual design trend that combines elements of skeuomorphism and flat design
+
+- [Notation](https://notation.so/)
+> Notation allows you to write markdown and automatically publish it Notion.
+> Once it's in Notion, it can be an internal thing, or you can ship it as a public website.
 
 - [omnibug](https://omnibug.io/)
 > Omnibug provides you the tools to quickly and easily verify that your marketing technologies are implemented properly
@@ -172,6 +183,9 @@
 
 - [svgviewer](https://www.svgviewer.dev/)
 > View, edit, and optimize SVGs
+
+- [todoist](https://todoist.com/)
+> Simplify life for both you and your team with the world’s #1 task manager and to-do list app
 
 - [typescale](https://typescale.com/)
 > Create stunning typography
