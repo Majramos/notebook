@@ -77,6 +77,9 @@
 - [IBM Decision Optimization CPLEX](https://ibmdecisionoptimization.github.io/docplex-doc/)
 > You can model your problems by using the Python API and solve them on the cloud with the IBM Decision Optimization on Cloud service or on your computer with IBM ILOG CPLEX Optimization Studio
 
+- [jmespath](https://jmespath.org/)
+> JMESPath is a query language for JSON
+
 - [jquery](https://jquery.com/)
 > jQuery is a fast, small, and feature-rich JavaScript library
 
@@ -100,6 +103,9 @@
 - [animista](https://animista.net/)
 > On-Demand CSS animations library
 
+- [ascii-tables](https://ozh.github.io/ascii-tables/)
+> Quickly format ASCII table
+
 - [browserling](https://www.browserling.com/tools/)
 > Collection of the most popular developer tools all in one place
 
@@ -115,11 +121,17 @@
 - [codemyui](https://codemyui.com/)
 > Handpicked collection of Web Design & UI Inspiration with Code Snippets
 
+- [cssgradient](https://cssgradient.io/)
+> A designstripe project that lets you create free gradient backgrounds for your website
+
 - [disify](https://disify.com/)
 > Free email validation API. Check if disposable or temporary email address
 
 - [excalidraw](https://excalidraw.com/)
 > An open source virtual hand-drawn style whiteboard
+
+- [gitignore.io](https://www.toptal.com/developers/gitignore)
+> Create useful .gitignore files for your project
 
 - [gtmetrix](https://gtmetrix.com/)
 > Test your website speed
