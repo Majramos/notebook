@@ -1,6 +1,7 @@
-title: data science
+title: data management and analytics
 nav:
     - ...
+    - data-engineering
     - deep-learning
     - geospatial-analysis
     - machine-learning
