@@ -2,6 +2,9 @@
 
 ## Data
 
+- [256 colors cheat sheet](https://www.ditig.com/publications/256-colors-cheat-sheet)
+> List of 256 colors for Xterm prompt (console). Contains displayed color, Xterm Name, Xterm Number, HEX, RGB and HSL codes.
+
 - [api-ninjas](https://api-ninjas.com/)
 > 78 data APIs for projects
 
@@ -106,6 +109,9 @@
 - [ascii-tables](https://ozh.github.io/ascii-tables/)
 > Quickly format ASCII table
 
+- [badgen](https://badgen.net/)
+> Fast badge generating service
+
 - [browserling](https://www.browserling.com/tools/)
 > Collection of the most popular developer tools all in one place
 
@@ -117,6 +123,9 @@
 
 - [chalk](https://chalk.ist/)
 > Create beautiful images of your source code
+
+- [choosealicense](https://choosealicense.com/)
+> Choose an open source license
 
 - [codemyui](https://codemyui.com/)
 > Handpicked collection of Web Design & UI Inspiration with Code Snippets
@@ -152,6 +161,10 @@
 > Collaboration for Mission-Critical Work
 > Self-hosted Team Messaging for Private Networks
 
+- [Muzli Colors](https://colors.muz.li/)
+> Color Palette Generator.
+> Create Beautiful Color Schemes that works
+
 - [neumorphism](https://neumorphism.io/)
 > Generate neumorphic designs.
 > Neumorphism, also known as soft UI, is a visual design trend that combines elements of skeuomorphism and flat design
@@ -186,6 +199,9 @@
 
 - [simplecss](https://simplecss.eu/)
 > Simple CSS media query generator for hundreds of devices
+
+- [Simple Icons](https://simpleicons.org/)
+> Free SVG icons for popular brands
 
 - [SSL Certificate Checker](https://www.digicert.com/help/)
 > leading TLS/SSL Certificate Authority specializing in digital trust for the real world
