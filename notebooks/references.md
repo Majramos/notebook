@@ -106,6 +106,9 @@
 - [animista](https://animista.net/)
 > On-Demand CSS animations library
 
+- [asciiflow](https://asciiflow.com/)
+> Infinite ASCII diagrams, save to Google Drive, resize, freeform draw, and export straight to text/html.
+
 - [ascii-tables](https://ozh.github.io/ascii-tables/)
 > Quickly format ASCII table
 
@@ -135,6 +138,9 @@
 
 - [disify](https://disify.com/)
 > Free email validation API. Check if disposable or temporary email address
+
+- [edotor](https://edotor.net/)
+> Online Graphviz Editor
 
 - [excalidraw](https://excalidraw.com/)
 > An open source virtual hand-drawn style whiteboard
@@ -194,8 +200,14 @@
 - [resume matcher](https://www.resumematcher.fyi/)
 > Free and open-source ATS tool for tailoring resumes to job descriptions
 
+- [sankeyMATIC](https://www.sankeymatic.com/)
+> Make beautiful flow diagrams
+
 - [shadows.brumm.af](https://shadows.brumm.af/)
 > Smooth shadows generator
+
+- [shields.io](https://shields.io/)
+> Concise, consistent, and legible badges
 
 - [simplecss](https://simplecss.eu/)
 > Simple CSS media query generator for hundreds of devices
@@ -208,6 +220,9 @@
 
 - [StackEdit](https://stackedit.io/)
 > In-browser Markdown editor
+
+- [svgl](https://svgl.app/)
+> A beautiful library with SVG logos
 
 - [svgviewer](https://www.svgviewer.dev/)
 > View, edit, and optimize SVGs
