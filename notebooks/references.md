@@ -20,6 +20,9 @@
 - [firebog](https://firebog.net/)
 > Big blocklist collection for Pi-hole
 
+- [flagicons](https://flagicons.lipis.dev/)
+> A curated collection of all country flags in SVG — plus the CSS for easier integration.
+
 - [geoportal.lneg](https://geoportal.lneg.pt/pt/)
 > Informação georreferenciada relacionada com as diferentes atividades do Laboratório Nacional de Energia e Geologia
 
@@ -57,6 +60,9 @@
 
 - [kaggle](https://www.kaggle.com/)
 > Share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Huge repository of community-published models, data & code for your next project
+
+- [semver](https://semver.org/)
+> Semantic Versioning Specification 
 
 - [sciencedirect](https://www.sciencedirect.com/)
 > Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature
@@ -142,6 +148,9 @@
 - [edotor](https://edotor.net/)
 > Online Graphviz Editor
 
+- [emaildrop](https://www.emaildrop.io/)
+>  free disposable email provider
+
 - [excalidraw](https://excalidraw.com/)
 > An open source virtual hand-drawn style whiteboard
 
@@ -166,6 +175,9 @@
 - [mattermost](https://mattermost.com/)
 > Collaboration for Mission-Critical Work
 > Self-hosted Team Messaging for Private Networks
+
+- [monkeytype](https://monkeytype.com/)
+> minimalistic and customizable typing test
 
 - [Muzli Colors](https://colors.muz.li/)
 > Color Palette Generator.
