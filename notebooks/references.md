@@ -61,6 +61,9 @@
 - [kaggle](https://www.kaggle.com/)
 > Share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Huge repository of community-published models, data & code for your next project
 
+- [keepachangelog](https://keepachangelog.com/)
+> Don’t let your friends dump git logs into changelogs.
+
 - [semver](https://semver.org/)
 > Semantic Versioning Specification 
 
@@ -76,6 +79,9 @@
 
 - [chart.js](https://www.chartjs.org/)
 > JavaScript charting library
+
+- [choosealicense](https://choosealicense.com/)
+> Choose an open source license
 
 - [golden-layout](https://golden-layout.com/)
 > Javascript framework of layout paradigm referred as "docker"
@@ -133,9 +139,6 @@
 - [chalk](https://chalk.ist/)
 > Create beautiful images of your source code
 
-- [choosealicense](https://choosealicense.com/)
-> Choose an open source license
-
 - [codemyui](https://codemyui.com/)
 > Handpicked collection of Web Design & UI Inspiration with Code Snippets
 
@@ -172,6 +175,9 @@
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 > Free fake API for testing and prototypin
 
+- [makeareadme](https://www.makeareadme.com/)
+> Build a README
+
 - [mattermost](https://mattermost.com/)
 > Collaboration for Mission-Critical Work
 > Self-hosted Team Messaging for Private Networks
@@ -205,6 +211,9 @@
 
 - [rawgraphs](https://app.rawgraphs.io/)
 > Open source data visualization framework built with the goal of making the visual representation of complex data easy for everyone
+
+- [readme](https://readme.so/)
+> Simple editor allows you to quickly add and customize all the sections you need for your project's readme
 
 - [regex101](https://regex101.com/)
 > Regular expression tester with syntax highlighting, explanation, cheat sheet
