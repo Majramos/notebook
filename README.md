@@ -8,11 +8,24 @@
 
 </div>
 
-
 My notebooks about (python) programming and data science
 
 For a better description got the [notebook initial page](notebooks/index.md)
 
+## Environment Setup
+
+These notebooks can be run locally with docker using compose.
+To specify container stack version and name just setup the enviroment variables or add a `.env` file with
+```bash
+ENV_PYTHON_VERSION=3.11
+ENV_JUPYTERLAB_VERSION=4.2
+ENV_CONTAINER_NAME=notebook
+```
+
+run the environment
+```bash
+$ docker compose up -d
+```
 
 ## Build the notebook
 
