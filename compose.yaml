@@ -1,0 +1,23 @@
+name: ${ENV_CONTAINER_NAME}
+
+services:
+    python-jupyter:
+        pull_policy: build
+        build:
+            context: .
+            args:
+                - PYTHON_VERSION=${ENV_PYTHON_VERSION}
+                - JUPYTERLAB_VERSION=${ENV_JUPYTERLAB_VERSION}
+        image: python-jupyter-devenv:py3.11-jl4.2
+        container_name: ${ENV_CONTAINER_NAME}
+        restart: "no"
+        environment:
+            - ENV_PYTHON_VERSION=${ENV_PYTHON_VERSION}
+            - ENV_JUPYTERLAB_VERSION=${ENV_JUPYTERLAB_VERSION}
+        ports:
+            - 7512:8888
+        volumes:
+            - .:/home/pyuser/workspace
+        labels:
+            - "notebook.python.version=3.11"
+            - "notebook.jupyterlab.version=4.2"
