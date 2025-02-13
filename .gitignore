@@ -100,8 +100,5 @@ ENV/
 # mypy
 .mypy_cache/
 
-# dev notebook
-development.ipynb
-
 # jupyter trash
 .Trash-999/*
