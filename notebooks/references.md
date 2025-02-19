@@ -40,6 +40,12 @@
 
 ## Education / Online Books
 
+- [big O cheat sheets](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html)
+> big O cheat sheets
+
+- [bigocheatsheet](https://www.bigocheatsheet.com/)
+> covers the space and time Big-O complexities of common algorithms used in Computer Science
+
 - [b-on](https://www.b-on.pt/)
 > Biblioteca do Conhecimento Online (b-on) disponibiliza o acesso ilimitado e permanente às instituições de investigação e do ensino superior aos textos integrais de milhares periódicos científicos e ebooks online de alguns dos mais importantes fornecedores de conteúdos, através de assinaturas negociadas a nível nacional
 
@@ -71,6 +77,9 @@
 > Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature
 
 - [vim cheat sheet](https://vim.rtorr.com/)
+
+- [wtfhappenedin1971](https://wtfhappenedin1971.com/)
+> WTF Happened In 1971?
 
 - [youmightnotneedjquery](https://youmightnotneedjquery.com/)
 > How to perform stuff without using jquery
@@ -135,6 +144,9 @@
 
 - [canva](https://www.canva.com/)
 > Canva makes it easy to create professional designs and to share or print them
+
+- [cheapest-domains](https://tldes.com/cheapest-domains)
+> compares prices of 100+ domain registrars. Prices and promotional codes are updated every hour.
 
 - [chalk](https://chalk.ist/)
 > Create beautiful images of your source code
