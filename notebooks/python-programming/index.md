@@ -4,9 +4,7 @@
 
     Please note that the notebook you are referring to is currently a work in progress and may continue to be under development for an extended period. This ongoing process ensures that the content remains up-to-date and relevant, reflecting the latest information and research. As such, some sections may be incomplete or subject to change.
 
-
 Python is an incredibly versatile language, known for its ease of use and readability. It's a great choice for beginners and experienced programmers alike, offering a wide range of applications from web development to data analysis. With Python, you can start small and scale up to complex projects, thanks to its extensive libraries and community support. Whether you're automating simple tasks or building sophisticated algorithms, Python provides a solid foundation for your programming journey.
-
 
 ## Lorem ipsum dolor
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis quis quam et pharetra.
@@ -15,4 +13,3 @@ Morbi pellentesque odio ut dolor pellentesque, nec vulputate magna gravida.
 Duis id turpis aliquet velit interdum scelerisque eget nec urna.
 Cras volutpat eros ac felis commodo ultricies eget id erat. Cras eleifend egestas fringilla.
 Aliquam neque ipsum, fermentum non malesuada nec, sagittis feugiat tortor. Praesent auctor ac nisi eget luctus
-
