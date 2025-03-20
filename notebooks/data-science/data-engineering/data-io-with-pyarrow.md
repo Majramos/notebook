@@ -112,3 +112,4 @@ def upload_pa_table_s3(table: pa.Table, s3_path: str, file_name: str) -> None:
         compression="snappy",
     )
 ```
+
