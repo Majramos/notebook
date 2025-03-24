@@ -19,7 +19,6 @@
 - horizontal scaling
 - store user-generated content
 
-
 ## Types Data Storages
 
 ### data lake
