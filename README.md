@@ -18,14 +18,21 @@ These notebooks can be run locally with docker using compose.
 To specify container stack version and name just setup the enviroment variables or add a `.env` file with
 ```bash
 ENV_PYTHON_VERSION=3.11
-ENV_JUPYTERLAB_VERSION=4.2
+ENV_JUPYTERLAB_VERSION=4.3
 ENV_CONTAINER_NAME=notebook
+```
+
+check your user id and group id and change it in the docker file
+```bash
+$ id -u
+$ id -g
 ```
 
 run the environment
 ```bash
-$ docker compose up -d
+$ podman compose --pod-args '--userns keep-id' -f compose.yaml up --build
 ```
+
 
 ## Build the notebook
 
