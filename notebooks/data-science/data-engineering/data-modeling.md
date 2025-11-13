@@ -29,21 +29,25 @@ Normalization is the process of transforming a database to reduce redundancy and
 Dimension that stores and manages both current and previous version over a history of time period in a data warehouse. Types of SCDs:
 - Type 1: Update Changes
 
-| id  | code | name      | atribute       |    
+before
+| id  | code | name      | atribute       |
 |-----|------|-----------|----------------|
 | 123 | abc  | name_code | name_atribute1 |
 
+*after*
 | id  | code | name      | atribute       |
 |-----|------|-----------|----------------|
 | 123 | abc  | name_code | name_atribute2 |
 
 - Type 2: Keep Historical
+
 | id  | code | name      | atribute       | start_date | end_date   |
 |-----|------|-----------|----------------|------------|------------|
 | 123 | abc  | name_code | name_atribute1 | 01-01-2000 | 31-12-2000 |
 | 123 | abc  | name_code | name_atribute2 | 01-01-2001 | null       |
 
 - Type 3: Preserve Limited History
+
 | id  | code | name      | original_attribue | current_attribute | update_date |
 |-----|------|-----------|-------------------|-------------------|-------------|
 | 123 | abc  | name_code | name_atribute1    | name_atribute2    | 01-01-2001  |
@@ -100,7 +104,7 @@ Types of CDCs:
 - organization of data in a more flexible series of relationships, like a hierarchical data model, but child nodes can have multiple parent node
 
 #### When to use
-natural progression from hierarchical models, more flexibility and complexity in the relationships
+- natural progression from hierarchical models, more flexibility and complexity in the relationships
 
 #### Advantages
 - Can represent simple and complex relationships
@@ -117,7 +121,7 @@ natural progression from hierarchical models, more flexibility and complexity in
 ### Entity-relationship
 - captures the relationships between real-world entities much like the network model but it isn’t as directly tied to the physical structure of the database. Instead, it’s often used for designing a database conceptually.
 
-### Multidimensional 
+### Multidimensional
 - relational model is optimized for online transaction processing (OLTP)
 
 ## Database Schemas
@@ -225,3 +229,16 @@ natural progression from hierarchical models, more flexibility and complexity in
 - Kimball: Ideal for user-friendly, quick-to-implement solutions focused on specific business processes.
 - Inmon: Suitable for enterprise-wide data consistency and integration and have the resources for extensive ETL processes.
 - OBT: Useful for simple, small-scale applications where quick access to all data in one place is needed, but not  recommended for large-scale or complex environments.
+
+## Database Design
+
+### Naming Conventions
+
+| Object Type | Convention | Example |
+|-------------|------------|---------|
+| Tables | Plural, snake_case | users, order_items |
+| Columns | Singular, snake_case | first_name, created_at |
+| Primary Keys | id or table_id | id, user_id |
+| Foreign Keys | referenced_table_singular_id | user_id, order_id |
+| Indexes | table_columns_idx | users_email_idx |
+| Functions | verb_noun | calculate_total |

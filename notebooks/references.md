@@ -26,6 +26,9 @@
 - [geoportal.lneg](https://geoportal.lneg.pt/pt/)
 > Informação georreferenciada relacionada com as diferentes atividades do Laboratório Nacional de Energia e Geologia
 
+- [publicsuffix](https://publicsuffix.org/)
+> A "public suffix" is one under which Internet users can (or historically could) directly register names. Some examples of public suffixes are com, co.uk and pvt.k12.ma.us. The Public Suffix List is a list of all known public suffixes.
+
 - [newsapi](https://newsapi.org/)
 > Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API
 
@@ -71,7 +74,7 @@
 > Don’t let your friends dump git logs into changelogs.
 
 - [semver](https://semver.org/)
-> Semantic Versioning Specification 
+> Semantic Versioning Specification
 
 - [sciencedirect](https://www.sciencedirect.com/)
 > Elsevier's premier platform of peer-reviewed scholarly literature. Advance research and scholarship with the world's leading database of peer-reviewed, full-text scientific, technical and health literature
