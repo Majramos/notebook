@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 # jupyter trash
-.Trash-999/*
+.Trash-*/*
