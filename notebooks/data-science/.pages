@@ -1,7 +1,9 @@
-title: data science
+title: science of data
 nav:
-    - index.md
-    - geospatial-analysis
     - ...
+    - data-engineering
+    - deep-learning
+    - geospatial-analysis
+    - machine-learning
 hide: false
 collapse_single_pages: false

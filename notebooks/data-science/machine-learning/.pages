@@ -1,7 +1,5 @@
 title: machine learning
 nav:
-    - index.md
-    - geospatial-analysis
     - ...
 hide: false
 collapse_single_pages: false

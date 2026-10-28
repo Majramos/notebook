@@ -59,7 +59,7 @@ extra:
   status:
     new: Recently added
 
-copyright: Copyright &copy; 2023 <a href="https://www.marcoramos.me/">Marco Ramos</a>
+copyright: Copyright &copy; 2025 <a href="https://www.marcoramos.me/">Marco Ramos</a>
 
 plugins:
   - search
@@ -113,3 +113,4 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+

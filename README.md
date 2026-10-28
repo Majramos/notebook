@@ -3,15 +3,37 @@
 <div align="center">
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FMajramos%2Fnotebook%2Fmain%2Fpyproject.toml)
-![GitHub last commit](https://img.shields.io/github/last-commit/Majramos/notebook)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
+![Gitlab Pipeline Status](https://gitlab.com/majramos/marcoramos-me/badges/main/pipeline.svg)
+![Gitlab Release](https://gitlab.com/majramos/marcoramos-me/-/badges/release.svg)
+![Gitlab Coverage](https://gitlab.com/majramos/marcoramos-me/badges/main/coverage.svg)
 
 </div>
 
-
-My notebooks about (python) programming and data science
+My notebooks about (mostly python) programming and data science
 
 For a better description got the [notebook initial page](notebooks/index.md)
+
+## Environment Setup
+
+These notebooks can be run locally with docker using compose.
+To specify container stack version and name just setup the enviroment variables or add a `.env` file with
+```bash
+ENV_PYTHON_VERSION=3.11
+ENV_JUPYTERLAB_VERSION=4.3
+ENV_CONTAINER_NAME=notebook
+```
+
+check your user id and group id and change it in the docker file
+```bash
+$ id -u
+$ id -g
+```
+
+run the environment
+```bash
+$ podman compose --pod-args '--userns keep-id' -f compose.yaml up --build
+```
 
 
 ## Build the notebook
