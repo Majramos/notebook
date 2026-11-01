@@ -8,7 +8,7 @@ repo_name: majramos/notebook
 site_url: ""
 use_directory_urls: false
 
-docs_dir: notebooks
+docs_dir: src/notebook
 exclude_docs: |
   *TODO*
 
@@ -59,7 +59,7 @@ extra:
   status:
     new: Recently added
 
-copyright: Copyright &copy; 2025 <a href="https://www.marcoramos.me/">Marco Ramos</a>
+copyright: Copyright &copy; 2026 <a href="https://marcoramos.me/">Marco Ramos</a>
 
 plugins:
   - search
@@ -113,4 +113,3 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-
