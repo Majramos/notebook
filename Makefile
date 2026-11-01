@@ -26,7 +26,7 @@ clean:
     rm -rf .pytest_cache .ruff_cache .mypy_cache
 
 ping:
-    ping -c 3 marcoramos.me
+    ping -c 3 notebook.marcoramos.me
 
 setup-pre-commit:
     uv run pre-commit install
