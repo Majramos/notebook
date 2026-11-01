@@ -1,0 +1,100 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
+    - when: never
+
+stages:
+  # - lint
+  # - test
+  - build
+  - deploy
+
+# variables:
+#   UV_CACHE_DIR: "$CI_PROJECT_DIR/.uv-cache"
+
+# default:
+#   image: ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+#   cache:
+#     key:
+#       files:
+#         - uv.lock
+#     paths:
+#       - .uv-cache/
+#   before_script:
+#     - uv sync --locked
+#
+# check_format:
+#   stage: lint
+#   script:
+#     - uv run ruff format --check
+#     - uv run ruff check --output-format=gitlab --output-file=code-quality-report.json
+#   artifacts:
+#     when: always
+#     reports:
+#       codequality: code-quality-report.json
+#
+# type_check:
+#   stage: lint
+#   script:
+#     - uv run mypy scripts tests
+#
+# run_tests:
+#   stage: test
+#   script:
+#     - uv run pytest --junitxml=report.xml --cov --cov-report=term --cov-report=xml:coverage.xml
+#   coverage: '/TOTAL.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+#   artifacts:
+#     when: always
+#     reports:
+#       junit: report.xml
+#       coverage_report:
+#         coverage_format: cobertura
+#         path: coverage.xml
+#     paths:
+#       - report.xml
+#       - coverage.xml
+
+build_site:
+  stage: build
+  image: python:3.13-slim
+  before_script:
+    - python -m pip install --no-cache-dir -r requirements.txt
+  script:
+    - mkdocs build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
+
+deploy_pages:
+  stage: deploy
+  image: alpine:3.21
+  before_script: []
+  needs:
+    - job: build_site
+      artifacts: true
+  script:
+    - ":"
+  pages:
+    publish: build
+  rules:
+    - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
+
+# deploy_cloudflare_pages:
+#   stage: deploy
+#   image: node:22-bookworm-slim
+#   before_script: []
+#   needs:
+#     - job: build_site
+#       artifacts: true
+#   script:
+#     - npm install --global wrangler
+#     - wrangler pages deploy build
+#       --project-name "$CLOUDFLARE_PAGES_PROJECT"
+#       --branch main
+#   rules:
+#     - if: '$CI_COMMIT_BRANCH == "main"'
+#       when: manual
+#   environment:
+#     name: cloudflare/production
