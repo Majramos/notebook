@@ -1,6 +1,6 @@
 .RECIPEPREFIX := $() $()
 
-.PHONY: install fmt lint style test verify clean ping setup-pre-commit
+.PHONY: install fmt lint style test verify clean ping setup-pre-commit build
 
 install:
     uv sync
@@ -31,3 +31,6 @@ ping:
 setup-pre-commit:
     uv run pre-commit install
     uv run pre-commit install --hook-type commit-msg
+
+build:
+    uv run mkdocs build
