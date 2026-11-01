@@ -61,7 +61,7 @@ build_site:
   before_script:
     - python -m pip install --no-cache-dir -r requirements.txt
   script:
-    - make build
+    - mkdocs build
   artifacts:
     paths:
       - build/
