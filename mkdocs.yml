@@ -8,6 +8,7 @@ repo_name: majramos/notebook
 site_url: ""
 use_directory_urls: false
 
+site_dir: build
 docs_dir: src/notebook
 exclude_docs: |
   *TODO*
