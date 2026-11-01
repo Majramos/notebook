@@ -23,7 +23,7 @@ verify: lint style test
 clean:
     find . -type d -name __pycache__ -exec rm -rf {} +
     find . -type d -name "*.pyc" -delete
-    rm -rf .pytest_cache .ruff_cache .mypy_cache
+    rm -rf .pytest_cache .ruff_cache .mypy_cache site
 
 ping:
     ping -c 3 notebook.marcoramos.me
