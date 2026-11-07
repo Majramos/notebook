@@ -5,9 +5,14 @@
   src: url('mononoki-Regular-Nerd-Font-Complete-Mono.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('JetBrainsMono-Regular.ttf') format('truetype');
+}
+
 :root {
-  --md-text-font: 'mononoki';
-  --md-code-font: 'mononoki';
+  --md-text-font: 'JetBrainsMono';
+  --md-code-font: 'JetBrainsMono';
 
   --solarized-base03:    #002b36;
   --solarized-base02:    #073642;
@@ -163,8 +168,8 @@
 
 .jupyter-wrapper {
     --jp-content-font-color1:            var(--md-code-fg-color) !important;
-    --jp-ui-font-family:                 'mononoki' !important;
-    --jp-code-font-family-default:       'mononoki' !important;
+    --jp-ui-font-family:                 'JetBrainsMono' !important;
+    --jp-code-font-family-default:       'JetBrainsMono' !important;
     --jp-cell-editor-background:         var(--md-code-bg-color)  !important;
 
     --jp-mirror-editor-keyword-color:    var(--solarized-orange) !important;
