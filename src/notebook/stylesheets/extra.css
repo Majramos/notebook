@@ -272,6 +272,11 @@
 }
 
 
+.md-typeset {
+  font-size: 0.8rem;
+}
+
+
 .md-typeset table:not([class]) {
     border: none !important;
     font-size: 12px !important;
