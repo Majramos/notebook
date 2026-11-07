@@ -5,13 +5,13 @@ repo_url: https://gitlab.com/majramos/notebook
 repo_name: majramos/notebook
 
 # change this before deploy
-site_url: ""
-use_directory_urls: false
+site_url: https://notebook.marcoramos.me
 
 site_dir: build
 docs_dir: src/notebook
 exclude_docs: |
   *TODO*
+  __init__.py
 
 validation:
   omitted_files: warn
