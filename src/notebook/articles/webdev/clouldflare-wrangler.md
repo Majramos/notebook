@@ -25,6 +25,8 @@ wrangler --version
 Authenticate Wrangler with your Cloudflare account:
 ```bash
 wrangler login
+# or
+wrangler login  --device
 ```
 *This opens a browser window prompting you to authorize Wrangler with your Cloudflare credentials.*
 
