@@ -34,20 +34,20 @@ deploy_pages:
   rules:
     - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
 
-# deploy_cloudflare_pages:
-#   stage: deploy
-#   image: node:22-bookworm-slim
-#   before_script: []
-#   needs:
-#     - job: build_site
-#       artifacts: true
-#   script:
-#     - npm install --global wrangler
-#     - wrangler pages deploy build
-#       --project-name "$CLOUDFLARE_PAGES_PROJECT"
-#       --branch main
-#   rules:
-#     - if: '$CI_COMMIT_BRANCH == "main"'
-#       when: manual
-#   environment:
-#     name: cloudflare/production
+deploy_cloudflare_pages:
+  stage: deploy
+  image: node:22-bookworm-slim
+  before_script: []
+  needs:
+    - job: build_site
+      artifacts: true
+  script:
+    - npm install --global wrangler
+    - wrangler pages deploy build
+      --project-name "$CLOUDFLARE_PAGES_PROJECT"
+      --branch main
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: manual
+  environment:
+    name: cloudflare/production

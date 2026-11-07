@@ -102,3 +102,6 @@ ENV/
 
 # jupyter trash
 .Trash-*/*
+
+# cloudflare wrangler
+.wrangler

@@ -1,5 +1,4 @@
 ---
-title: Testing
 draft: false
 date: 2026-11-07
 tags:
