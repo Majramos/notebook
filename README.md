@@ -1,4 +1,4 @@
-# Notebooks
+# Notebook
 
 <div align="center">
 
@@ -12,36 +12,35 @@
 
 My notebooks about (mostly python) programming and data science
 
-For a better description got the [notebook initial page](notebooks/index.md)
+For a better description follow to [notebook about page](https://notebook.marcoramos.me/about/)
 
 ## Environment Setup
-
-These notebooks can be run locally with docker using compose.
-To specify container stack version and name just setup the enviroment variables or add a `.env` file with
+Use the script/jupyter.sh to build an image and run a container with jupyter lab to run the jupyter notebooks
 ```bash
-ENV_PYTHON_VERSION=3.11
-ENV_JUPYTERLAB_VERSION=4.3
-ENV_CONTAINER_NAME=notebook
+# build a image
+scripts/jupyter.sh build
+
+# run a container using the built image
+scripts/jupyter.sh run
+
+# remove both container and image
+scripts/jupyter.sh clean
 ```
 
-check your user id and group id and change it in the docker file
+### to interact with cloudflare using wrangler
+Use the script/jupyter.sh to build an image and run a container with jupyter lab to run the jupyter notebooks
 ```bash
-$ id -u
-$ id -g
+# same logic as above
+scripts/wrangler.sh {build|run|clean}
 ```
 
-run the environment
-```bash
-$ podman compose --pod-args '--userns keep-id' -f compose.yaml up --build
-```
+The script is built using podman for container management
 
-
-## Build the notebook
+## Build the notebook using mkdocs
 
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-
 
 ## About the notebook
 

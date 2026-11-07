@@ -5,11 +5,8 @@ ENV SHELL=/bin/bash
 # install the linux libraries needed
 RUN apt-get update
 RUN apt-get install -y vim nano
-# clean temp files
 RUN apt-get clean
 
-# update pip and install necessary packages
-# TODO: install python-dotenv
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install jupyterlab==4.6
 
