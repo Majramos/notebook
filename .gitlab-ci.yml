@@ -5,55 +5,8 @@ workflow:
     - when: never
 
 stages:
-  # - lint
-  # - test
   - build
   - deploy
-
-# variables:
-#   UV_CACHE_DIR: "$CI_PROJECT_DIR/.uv-cache"
-
-# default:
-#   image: ghcr.io/astral-sh/uv:python3.13-bookworm-slim
-#   cache:
-#     key:
-#       files:
-#         - uv.lock
-#     paths:
-#       - .uv-cache/
-#   before_script:
-#     - uv sync --locked
-#
-# check_format:
-#   stage: lint
-#   script:
-#     - uv run ruff format --check
-#     - uv run ruff check --output-format=gitlab --output-file=code-quality-report.json
-#   artifacts:
-#     when: always
-#     reports:
-#       codequality: code-quality-report.json
-#
-# type_check:
-#   stage: lint
-#   script:
-#     - uv run mypy scripts tests
-#
-# run_tests:
-#   stage: test
-#   script:
-#     - uv run pytest --junitxml=report.xml --cov --cov-report=term --cov-report=xml:coverage.xml
-#   coverage: '/TOTAL.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
-#   artifacts:
-#     when: always
-#     reports:
-#       junit: report.xml
-#       coverage_report:
-#         coverage_format: cobertura
-#         path: coverage.xml
-#     paths:
-#       - report.xml
-#       - coverage.xml
 
 build_site:
   stage: build
@@ -61,7 +14,7 @@ build_site:
   before_script:
     - python -m pip install --no-cache-dir -r requirements.txt
   script:
-    - mkdocs build
+    - mkdocs build --use-directory-urls
   artifacts:
     paths:
       - build/
