@@ -1,7 +1,8 @@
 nav:
     - index.md
     - 'About':
-        - 'about me': https://www.marcoramos.me/
-        - references.md
-        - tags.md
+        - 'Me': https://www.marcoramos.me/
+        - 'These Notebooks': about.md
+    - references.md
+    - tags.md
 collapse_single_pages: false

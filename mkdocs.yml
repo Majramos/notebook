@@ -24,8 +24,9 @@ theme:
     - content.code.copy
     - content.code.annotate
     # - navigation.instant # some features may not work properly with XHR
-    - navigation.indexes
+    # - navigation.indexes
     - navigation.top
+    - navigation.expand
   logo: assets/letter-m.png
   favicon: assets/favicon.ico
   icon:
@@ -44,6 +45,8 @@ theme:
       toggle:
         icon: material/brightness-3
         name: Switch to light mode
+  font:
+      text: JetBrains Mono
 
 extra:
   social:
@@ -65,8 +68,14 @@ copyright: Copyright &copy; 2026 <a href="https://marcoramos.me/">Marco Ramos</a
 plugins:
   - search
   - awesome-pages
-  - tags:
-      tags_file: tags.md
+  - tags
+  - meta
+  - blog:
+      blog_toc: true
+      blog_dir: .
+      post_dir: "./articles"
+      post_readtime: false
+      archive: false
   - mkdocs-jupyter:
       include: ["*.py", "*.ipynb"]
       execute: false
