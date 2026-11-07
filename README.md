@@ -4,9 +4,9 @@
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
-![Gitlab Pipeline Status](https://gitlab.com/majramos/marcoramos-me/badges/main/pipeline.svg)
-![Gitlab Release](https://gitlab.com/majramos/marcoramos-me/-/badges/release.svg)
-![Gitlab Coverage](https://gitlab.com/majramos/marcoramos-me/badges/main/coverage.svg)
+![Gitlab Pipeline Status](https://gitlab.com/majramos/notebook/badges/main/pipeline.svg)
+![Gitlab Release](https://gitlab.com/majramos/notebook/-/badges/release.svg)
+![Gitlab Coverage](https://gitlab.com/majramos/notebook/badges/main/coverage.svg)
 
 </div>
 
