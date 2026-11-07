@@ -33,4 +33,4 @@ setup-pre-commit:
     uv run pre-commit install --hook-type commit-msg
 
 build:
-    uv run mkdocs build
+    uv run mkdocs build --no-directory-urls
